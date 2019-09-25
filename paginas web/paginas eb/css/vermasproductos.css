@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*TAMAÑO DE MONITOR 1280PX*/
+
+body{
+	background-color:#003;
+	}
+/*##########################################################################################################################################################################*/
+
+#contenedor{
+	background-color:#096;
+	width:95%; /*1216PX*/
+	height:1170px;
+	margin:0px auto;
+	padding:1px;
+	}
+	
+/*##########################################################################################################################################################################*/
+#encabezado{
+	background-color:#3F9;
+	width:95%; /*1155,2PX*/
+	height:250px;
+	margin:0px auto;
+	margin-top:5px;
+	padding:0.1px;
+	}
+	
+	#encabezado .redes{
+		background-color:#333;
+		width:23.37%; /*270PX*/
+		height:50px;
+		margin-left:76%;
+		margin-top:5px;
+		}
+		#encabezado .redes a{
+			background-color:#3F0;
+			width:16.66%;
+			height:50px;
+			float:left;
+			display:block;
+			}
+			
+	#encabezado #logo{
+		background-color:#6C3;
+		width:65%;
+		height:150px;
+		margin:0px auto;
+		margin-top:20px;
+		}
+		
+/*##########################################################################################################################################################################*/
+
+#navegador{
+	background-color:#F00;
+	width:95%; /*1155,2PX*/
+	height:50px;
+	margin:0px auto;
+	margin-top:10px;
+	}
+	
+	#navegador .nav{
+		width:100%;
+		height:50px;
+		margin:0px auto;
+		}
+		#navegador .nav a{
+			background-color:#30F;
+			width:33.33%; /*385,06PX*/
+			height:50px;
+			float:left;
+			display:block;
+			text-align:center;
+			color:#FFF;
+			}
+			
+/*##########################################################################################################################################################################*/
+
+#productcontenedor{
+	background-color:#6C9;
+	width:95%; /*1155,2PX*/
+	height:700px;
+	margin-left:2.5%;
+	margin-top:20px;
+	margin-bottom:20px;
+	float:left;
+	}
+	
+	#productcontenedor .menuproductos{
+		width:100%;
+		height:50px;
+		}
+		#productcontenedor .menuproductos a{
+			background-color:#6F0;
+			width:16.665%; /*192,53PX*/
+			height:50px;
+			float:left;
+			display:block;
+			text-align:center;
+			color:#FFF;
+			}
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA PRODUCTOS <PRODUCTOS.HTML>*/	
+	#productcontenedor .productos{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .productos a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA PRODUCTOS <PRODUCTOS.HTML>*/
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA OFERTAS <OFERTAS.HTML>*/	
+	#productcontenedor .ofertas{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .ofertas a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA OFERTAS <OFERTAS.HTML>*/
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA SUBASTAS <SUBASTAS.HTML>*/	
+	#productcontenedor .subastas{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .subastas a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA SUBASTAS <SUBASTAS.HTML>*/
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA JUEGOS PRODUCTOS <JUEGOSPRODUCTOS.HTML>*/	
+	#productcontenedor .juegoproductos{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .juegoproductos a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA JUEGOS PRODUCTOS <JUEGOSPRODUCTOS.HTML>*/
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA MUSICA PRODUCTOS <MUSICAPRODUCTOS.HTML>*/	
+	#productcontenedor .musicaproductos{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .musicaproductos a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA MUSICA PRODUCTOS <MUSICAPRODUCTOS.HTML>*/
+/*-----------------------------------------------------------------------------------*/
+		/*DIV PAGINA CINE Y SERIES PRODUCTOS <CINEYSERIESPRODUCTOS.HTML>*/	
+	#productcontenedor .cineyseriesproductos{
+		background-color:#6C9;
+		width:100%;
+		height:600px;
+		}
+		#productcontenedor .cineyseriesproductos a{
+			background-color:#FF0;
+			width:30%;/*385.06PX*/
+			height:180px;
+			float:left;
+			display:block;
+			margin-left:2.5%;
+			margin-top:15px;			
+			}
+		/*DIV PAGINA CINE Y SERIES PRODUCTOS <CINEYSERIESPRODUCTOS.HTML>*/
+/*-----------------------------------------------------------------------------------*/	
+	#productcontenedor .vermas{
+		background-color:#090;
+		width:100%;
+		height:50px;
+		text-align:center;
+		}
+		
+/*##########################################################################################################################################################################*/
+
+#pie{
+	background-color:#066;
+	width:95%;
+	height:100px;
+	margin:0px auto;
+	padding:0.1px;
+	clear:both;
+	}
+	
+	#pie .info{
+		background-color:#F00;
+		width:48%;
+		height:30px;
+		margin-left:50%;
+		margin-top:5px;
+		}
+		
+	#pie .infodos{
+		background-color:#C3C;
+		width:48%;
+		height:30px;
+		margin-left:50%;
+		}
+		
+	#pie .infotres{
+		background-color:#00C;
+		width:48%;
+		height:30px;
+		margin-left:50%;
+		}
