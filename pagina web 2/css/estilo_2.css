@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+/*TAMAÑO DE MONITOR 1280PX*/
+
+body{
+	background-color:#000;
+	}
+/*##########################################################################################################################################################################*/
+
+#contenedor{
+	background-color:#000;
+	width:95%; /*1216PX*/
+	height:970px;
+	margin:0px auto;
+	padding:1px;	
+	border-radius:10px;
+	}
+	
+/*##########################################################################################################################################################################*/
+#encabezado{
+	background-image:url(imagenes/ddlogo.jpg);
+	width:95%; /*1155,2PX*/
+	height:250px;
+	margin:0px auto;
+	margin-top:5px;
+	padding:0.1px;
+	}
+	
+	#encabezado .redes{
+		width:20%; /*270PX*/
+		height:50px;
+		margin-left:78%;
+		margin-top:10px;
+		}
+		#encabezado .redes a{
+			width:25%;
+			height:45px;
+			float:left;
+			display:block;
+			}
+		#encabezado .redes .facebook{
+				background-image:url(imagenes/facebook.jpg);
+				}
+		#encabezado .redes .instagram{
+				background-image:url(imagenes/instagram.jpg);
+				}
+		#encabezado .redes .youtube{
+				background-image:url(imagenes/youtube.jpg);
+				}
+		#encabezado .redes .discord{
+				background-image:url(imagenes/discord.jpg);
+				}
+			
+	#encabezado #logo{
+		background-color:#039;
+		width:65%;
+		height:150px;
+		margin:0px auto;
+		margin-top:20px;
+		clear:both;
+		text-align:center;
+		text-decoration:none;
+		color:#606;
+		font-size:60px;
+		line-height:200px;
+		font-family:"Courier New", Courier, monospace;
+		}
+		
+	
+	
+		
+/*##########################################################################################################################################################################*/
+
+#navegador{
+	background-color:#F00;
+	width:95%; /*1155,2PX*/
+	height:50px;
+	margin:0px auto;
+	margin-top:10px;
+	}
+	
+	#navegador .nav{
+		width:100%;
+		height:50px;
+		margin:0px auto;
+		}
+	#navegador .nav a{
+			background-color:#003;
+			width:50%; /*385,06PX*/
+			height:50px;
+			float:left;
+			display:block;
+			text-align:center;
+			text-decoration:none;
+			color:#FFF;
+			font-family:"Courier New", Courier, monospace;
+			line-height:50px;
+			font-size:40px;
+			}
+			#navegador .nav .tutorial{
+				background-image:url(imagenes/tutox.jpg);
+				}
+				#navegador .nav .tutorial:hover{
+					background-image:url(imagenes/tutox_hover.jpg);
+					}
+			#navegador .nav .musica{
+				background-image:url(imagenes/musicllog.jpg);
+				}
+				#navegador .nav .musica:hover{
+					background-image:url(imagenes/musicllog_hover.jpg);
+					}
+			
+/*##########################################################################################################################################################################*/
+
+#contenedormusica{
+	width:95%;
+	height:500px;
+	margin:0px auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	
+	#contenedor .navmusica{
+		background-color:#096;
+		width:100%;
+		height:50px;
+		}
+		#contenedor .navmusica a{
+			background-color:#000;
+			width:25%;
+			height:50px;
+			float:left;
+			display:block;
+			text-align:center;
+			text-decoration:none;
+			line-height:50px;
+			color:#FFF;
+			font-family:"Courier New", Courier, monospace;
+			}
+			#contenedor .navmusica .hits{
+				background-image:url(imagenes/hitslogo.jpg);
+				}
+				#contenedor .navmusica .hits:hover{
+					background-image:url(imagenes/hitslogo_hover.jpg);
+					}
+			#contenedor .navmusica .pop{
+				background-image:url(imagenes/popop.jpg);
+				}
+				#contenedor .navmusica .pop:hover{
+					background-image:url(imagenes/popop_hover.jpg);
+					}
+			#contenedor .navmusica .rap{
+				background-image:url(imagenes/raplogo.jpg);
+				}
+				#contenedor .navmusica .rap:hover{
+					background-image:url(imagenes/raplogo_hover.jpg);
+					}
+			#contenedor .navmusica .dance{
+				background-image:url(imagenes/dancelogo.jpg);
+				}
+				#contenedor .navmusica .dance:hover{
+					background-image:url(imagenes/dancelogo_hover.jpg);
+					}
+			
+	
+	#contenedormusica .musicahits a{
+		background-color:#003;
+		width:100%;
+		height:50px;
+		float:left;
+		display:block;
+		line-height:45px;
+		text-align:center;
+		color:#FFF;
+		text-decoration:none;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:18px;
+		}
+		#contenedormusica .musicahits a:hover{
+			background-color:#006;
+			}
+		
+		
+/*##########################################################################################################################################################################*/
+
+#pieabajo{
+	width:95%;
+	height:80px;
+	clear:both;
+	margin:0px auto;
+	padding:0.1px;
+	}
+	
+	#pieabajo .sigueme{
+		background-color:#003;
+		width:90%;
+		height:70px;
+		margin:0px auto;
+		margin-top:5px;
+		font-size:18px;
+		color:#FFF;
+		text-align:center;
+		float:left;
+		margin-left:1%;
+		font-family:Tahoma, Geneva, sans-serif;
+		line-height:35px;
+		}
+		#pieabajo #reaper{
+			width:70px;
+			height:70px;
+			float:right;
+			margin-right:1%;
+			margin-top:5px;
+			}
+			#pieabajo #reaper .logo{
+				background-image:url(imagenes/logo.jpg);
+				width:70px;
+				height:70px;
+				display:block;
+				float:left;
+				}			
+				#pieabajo #reaper .logo:hover{
+					background-image:url(imagenes/logo_hover.jpg);
+					}
